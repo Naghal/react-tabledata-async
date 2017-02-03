@@ -1,0 +1,52 @@
+{
+  "name": "react-tabledata-async",
+  "version": "0.0.1",
+  "description": "Asynchronous tabledata for lazyloading datas",
+  "main": "lib/index.js",
+  "author": "Nicolas Boisvert (nicklay@me.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "run test"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "react-tabledata": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-plugin-react": "^6.9.0",
+    "firenpm": "1.2.0",
+    "firenpm.web": "1.2.0"
+  },
+  "babel": {
+    "presets": [
+      "firenpm/babel-preset-es2015",
+      "firenpm/babel-preset-react",
+      "firenpm/babel-preset-stage-2"
+    ]
+  },
+  "runjs": {
+    "babel-register": "./node_modules/firenpm/babel-register"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/firenpm/eslint-config-standard.js",
+      "./node_modules/firenpm/eslint-config-standard-react.js"
+    ],
+    "parser": "./node_modules/firenpm/babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicklayb/react-tabledata-async.git"
+  },
+  "keywords": [
+    "async",
+    "tabledata",
+    "react",
+    "fetch"
+  ],
+  "bugs": {
+    "url": "https://github.com/nicklayb/react-tabledata-async/issues"
+  },
+  "homepage": "https://github.com/nicklayb/react-tabledata-async#readme"
+}
