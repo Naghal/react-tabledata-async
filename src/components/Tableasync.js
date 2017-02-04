@@ -65,7 +65,14 @@ export default class Tableasync extends Component {
     render() {
         return (
             <div>
-                <Tabledata datas={this.state.datas}>
+                <Tabledata
+                    datas={this.state.datas}
+                    tr={this.props.tr}
+                    th={this.props.th}
+                    td={this.props.td}
+                    thead={this.props.thead}
+                    table={this.props.table}
+                    tbody={this.props.tbody}>
                     {this.props.children}
                 </Tabledata>
             </div>

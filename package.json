@@ -1,6 +1,6 @@
 {
   "name": "react-tabledata-async",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Asynchronous tabledata for lazyloading datas",
   "main": "lib/index.js",
   "author": "Nicolas Boisvert (nicklay@me.com)",
